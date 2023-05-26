@@ -15,12 +15,16 @@ html, body {
     font-family: 'WhitneyLight';
     min-width: 500px;
     max-width: 500px;
+    height: fit-content;
+    min-height: fit-content;
+    max-height: fit-content;
 }
 
 h1 {
     color: white;
     font-size: 25px;
     margin: 10px;;
+    margin-right: 30px;
 }
 
 #add-todo {
@@ -115,4 +119,13 @@ i {
 
 #error-message {
     color: orangered;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+#quotes-text {
+    color: gray;
 }
